@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css" media="all"/>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+</head>
+<body class="bg-body">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-dark navbar-expand-lg bg-secondary">
+
+          <a class="navbar-brand" href="#">
+            <img src="/img/perfilAriel.jpg" alt="" width="60" height="60" class="d-inline-block align-text-top">
+            <h6>Ariel Ponce</h6>
+          </a>
+            <!--<h2>Ariel Ponce</h2></a>-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a id="sobreMi" class="nav-link active" href="#aboutMe">Sobre mi</a>
+              </li>
+
+              <li class="nav-item">
+                <a id="infoPersonal" class="nav-link" href="#personalInfo">Curriculum Vitae</a>
+              </li>
+
+              <li class="nav-item">
+                <a id="redes" class="nav-link" href="#socialNetwork">Redes sociales</a>
+              </li>
+
+              <li class="nav-item">
+                <a id="miBlog" class="nav-link" href="#myBlog">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a id="contacto" class="nav-link" href="#contact">Contacto</a>
+              </li>
+
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>-->
+
+              <!--<li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>-->
+            </ul>
+
+          </div>
+
+      </nav>
+
+      <div class="col-md-12"></div>
+
+      <div id="aboutMe" class="row navbar-light text-dark" style="display: none;">
+
+        <h3 class="col-xs-12 text-left text-primary">Sobre mi</h3>
+        <hr>
+       
+        <div class="col-md-4 text-center">
+          <div>
+            <i class="fa fa-regular fa-user fa-2x circle"></i>
+          </div>
+          <p>
+            <strong>Datos personales</strong><br>
+            Nombre completo: <small class="text-muted">Ariel Ponce</small><br>
+            Domicilio: <small class="text-muted">Correa de Saa 2541</small><br>
+            Email: <small class="text-muted">narielponce@gmail.com</small><br>
+            Teléfono: <small class="text-muted">351 201 0993</small>
+          </p>                
+        </div>
+
+        <div class="col-md-4 text-center">
+          <div>
+            <i class="fa fa-solid fa-briefcase fa-2x circle"></i>
+          </div>
+          <p>
+            <strong>Experiencia laboral</strong><br>
+              Multicanal S.A.: <small class="text-muted">Técnico en redes</small><br>
+              
+            </ul>
+          </p> 
+       </div>
+
+        <div class="col-md-4 text-center right">
+          <div>
+            <i class="fa fa-comment fa-2x  circle"></i>
+          </div>
+          <p>
+            <strong>idiomas</strong><br>
+            Español: <small>Nativo</small><br>
+            Ingles: <small>85% -> Conversación</small><br>
+            Portugues: <small>70% -> Leido</small><br>
+          </p>
+        </div>
+      </div>
+
+      <div id="personalInfo" class="row navbar-light text-dark" style="display: none;">
+        <h3 class="col-xs-12 text-left text-primary">Mi curriculum vitae</h3>
+        <hr>
+      </div>
+
+      <div id="socialNetwork" class="row navbar-light text-dark" style="display: none;">
+        <h3 class="col-xs-12 text-left text-primary">Mis redes sociales</h3>
+        <hr>
+        <div class="col-md-4 text-left">
+          <div>
+            <a href="https://www.facebook.com/narielponce" target="_blank"><i class=" fa-brands fa-facebook fa-2x"></i></a><br>
+            <a href="https://twitter.com/narielponce" target="_blank"><i class=" fa-brands fa-twitter fa-2x"></i></a>
+          </div>
+       </div>
+      </div>
+
+      <div id="myBlog" class="row navbar-light text-dark" style="display: none;">
+        <h3 class="col-xs-12 text-left text-primary">Mi Blog personal</h3>
+        <hr>
+      </div>
+
+      <div id="contact" class="row text-dark" style="display: none;">
+        <h3 class="col-xs-12 text-left text-primary">Formulario de contacto</h3>
+        <hr>
+
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Nombre</label>
+              <input type="text" class="form-control" id="inputFirstName" placeholder="Juan">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">Apellido</label>
+              <input type="text" class="form-control" id="inputLastName" placeholder="Perez">
+            </div>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputAddress">Correo electrónico</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="nombre@ejemplo.com">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputAddress2">Asunto</label>
+            <input type="text" class="form-control" id="inputSubject" placeholder="Título consulta">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputAddress2">Mensaje</label>
+            <textarea class="form-control" name="message" rows="3" placeholder="Escriba su mensaje aquí..."></textarea> 
+          </div>
+            <br>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        
+      </div>
+      
+    </div>
+
+</body>
+
+<script src="/js/js.js"></script>
+
+</html>
